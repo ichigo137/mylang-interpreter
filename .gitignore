@@ -1,0 +1,46 @@
+# Dependencies and generated output
+node_modules/
+coverage/
+dist/
+build/
+out/
+
+# Environment files, private keys, and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.stackdump
+
+# Operating-system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor and IDE state
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local test and tool artifacts
+.nyc_output/
+*.lcov
+*.tmp
+*.bak
+*.orig

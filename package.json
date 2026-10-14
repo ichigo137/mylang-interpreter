@@ -1,0 +1,26 @@
+{
+  "name": "mylang-interpreter",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A small interpreted programming language built from scratch in JavaScript.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "programming-language",
+    "interpreter",
+    "lexer",
+    "parser",
+    "ast",
+    "javascript",
+    "educational"
+  ],
+  "scripts": {
+    "start": "node src/cli.js",
+    "run": "node src/cli.js",
+    "test": "node --test",
+    "example": "node src/cli.js examples/hello.my"
+  }
+}

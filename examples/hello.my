@@ -1,0 +1,21 @@
+// Your first MyLang program
+let name = "ICHIGO";
+print "Hello, " + name + "!";
+
+fn square(n) {
+  return n * n;
+}
+
+print "9 squared is " + square(9);
+
+let count = 3;
+while (count > 0) {
+  print count;
+  count = count - 1;
+}
+
+if (square(2) == 4) {
+  print "Functions and conditions work!";
+} else {
+  print "Something went wrong.";
+}
